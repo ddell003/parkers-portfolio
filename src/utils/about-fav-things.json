@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Canoeing",
+    "img": "/assets/images/canoe.jpg",
+    "things": "I love hiking camping, glamping and canoeing in rivers and lakes"
+  },
+  {
+    "id": 2,
+    "name": "Fitness",
+    "img": "/assets/images/hike2.jpg",
+    "things": "Be it an long hike, gym workout or playing basketball — the recharge works wonders!"
+  },
+  {
+    "id": 3,
+    "name": "Cooiking",
+    "img": "/assets/images/cooking.jpg",
+    "things": "I love grilling, cooking, baking and of course eating the results!"
+  }
+]

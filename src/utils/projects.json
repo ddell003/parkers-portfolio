@@ -1,0 +1,28 @@
+[
+  {
+    "img": "/assets/images/webchek.jpg",
+    "title": "WebChek",
+    "tech": "Angular 12, CSS, PHP, Node.js, MongoDB, Postgress, Express, Passport, Laravel, Axios, Material JS, Heroku",
+    "deployLink": "https://webchek.netlify.app/",
+    "repoLink": "https://github.com/ddell003/webchek-ui"
+  },
+  {
+    "img": "/assets/images/town-portal.jpg",
+    "title": "Town Payment Portal",
+    "tech": "Vue.js, CSS, Stripe, CSS Animations, Laravel, Javascript",
+    "deployLink": "https://town-portal.herokuapp.com/"
+  },
+  {
+    "img": "/assets/images/town.jpg",
+    "title": "Town Website",
+    "tech": "Angular 12 , Bootstrap, Gulp, SASS, JavaScript, GoDaddy, Google Analytics",
+    "deployLink": "https://mountcrawford.us/"
+  },
+  {
+    "img": "/assets/images/ppm.jpg",
+    "title": "Project Management Tool",
+    "tech": "React.js, Java, Spring, Hybernate, Docker",
+    "deployLink": "#",
+    "repoLink": "https://github.com/ddell003/AgilePPMTool"
+  }
+]

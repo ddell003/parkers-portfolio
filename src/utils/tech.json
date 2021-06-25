@@ -1,0 +1,230 @@
+[
+  {
+    "name": "HTML",
+    "link": "#",
+    "svg": "/assets/images/tech-icons/html-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Java",
+    "link": "https://www.java.com/en/",
+    "svg": "/assets/images/tech-icons/javablue.jpg",
+    "type": "dev"
+  },
+  {
+    "name": "CSS",
+    "link": "https://dev.to/gedalyakrycer/ohsnap-staggered-css-animations-sass-loops-4dk0",
+    "svg": "/assets/images/tech-icons/css-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "SASS",
+    "link": "https://dev.to/gedalyakrycer/the-shoppies-my-project-submission-for-shopify-s-front-end-internship-36ee",
+    "svg": "/assets/images/tech-icons/sass-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "GULP",
+    "link": "https://www.trust4leaders.com/",
+    "svg": "/assets/images/tech-icons/gulp-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "CSS Grids",
+    "link": "https://github.com/GedalyaKrycer/css-grids-wes-bos",
+    "svg": "/assets/images/tech-icons/css-grids-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Bootstrap",
+    "link": "https://www.trust4leaders.com/",
+    "svg": "/assets/images/tech-icons/bootstrap-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Bulma",
+    "link": "https://github.com/GedalyaKrycer/weather-forecaster",
+    "svg": "/assets/images/tech-icons/bulma-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "React",
+    "link": "https://dev.to/gedalyakrycer/react-and-its-lifecycle-methods-explained-1589",
+    "svg": "/assets/images/tech-icons/react-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Redux",
+    "link": "https://github.com/GedalyaKrycer/screen-it",
+    "svg": "/assets/images/tech-icons/redux-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "JavaScript",
+    "link": "https://github.com/GedalyaKrycer/digibit-employee-directory",
+    "svg": "/assets/images/tech-icons/js-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "jQuery",
+    "link": "https://github.com/dpayton92/Vegg_In_Place_Survival_Kit",
+    "svg": "/assets/images/tech-icons/jquery-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "GSAP3",
+    "link": "https://github.com/GedalyaKrycer/gedalyakrycer.github.io",
+    "svg": "/assets/images/tech-icons/gsap3-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Node.js",
+    "link": "https://github.com/GedalyaKrycer/hw-10-employee-summary",
+    "svg": "/assets/images/tech-icons/node-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Axios",
+    "link": "https://github.com/GedalyaKrycer/weather-forecaster",
+    "svg": "/assets/images/tech-icons/axios-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Firebase",
+    "link": "https://workoutme.app/",
+    "svg": "/assets/images/tech-icons/firebase-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Wordpress",
+    "link": "https://www.trust4leaders.com/",
+    "svg": "/assets/images/tech-icons/wp-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Mailchimp",
+    "link": "https://github.com/GedalyaKrycer/genhybridsystems",
+    "svg": "/assets/images/tech-icons/mailchimp-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Git (GitHub)",
+    "link": "https://github.com/GedalyaKrycer",
+    "svg": "/assets/images/tech-icons/git-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "PHPStorm",
+    "link": "https://workoutme.app/",
+    "svg": "/assets/images/tech-icons/phpstorm-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Visual Studio Code",
+    "link": "https://dev.to/gedalyakrycer/10-visual-studio-code-tricks-to-unleash-your-productivity-p6a",
+    "svg": "/assets/images/tech-icons/vs-code-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Jira",
+    "link": "https://workoutme.app/",
+    "svg": "/assets/images/tech-icons/jira-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Google Search Console",
+    "link": "https://github.com/GedalyaKrycer/gedalyakrycer.github.io",
+    "svg": "/assets/images/tech-icons/search-console-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Google Analytics",
+    "link": "https://github.com/GedalyaKrycer/gedalyakrycer.github.io",
+    "svg": "/assets/images/tech-icons/analytics-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Netlify",
+    "link": "https://github.com/GedalyaKrycer/gedalyakrycer.github.io",
+    "svg": "/assets/images/tech-icons/netlify-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "WP Engine",
+    "link": "https://github.com/GedalyaKrycer",
+    "svg": "/assets/images/tech-icons/wp-engine-tech-icon.svg",
+    "type": "dev"
+  },
+  {
+    "name": "Trello",
+    "link": "https://github.com/GedalyaKrycer",
+    "svg": "/assets/images/tech-icons/trello-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "Sketch",
+    "link": "https://gedalya.myportfolio.com/web-design-variety",
+    "svg": "/assets/images/tech-icons/sketch-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "Adobe XD",
+    "link": "https://gedalya.myportfolio.com/web-design-variety",
+    "svg": "/assets/images/tech-icons/xd-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "Premier Pro",
+    "link": "https://gedalya.myportfolio.com/motion-graphics",
+    "svg": "/assets/images/tech-icons/pr-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "After Effects",
+    "link": "https://gedalya.myportfolio.com/motion-graphics",
+    "svg": "/assets/images/tech-icons/ae-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "Photoshop",
+    "link": "https://gedalya.myportfolio.com/poster-variety",
+    "svg": "/assets/images/tech-icons/ps-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "Illustrator",
+    "link": "https://gedalya.myportfolio.com/logo-variety",
+    "svg": "/assets/images/tech-icons/ai-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "InDesign",
+    "link": "https://gedalya.myportfolio.com/print-variety",
+    "svg": "/assets/images/tech-icons/id-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "Lightroom",
+    "link": "https://gedalya.myportfolio.com/photography",
+    "svg": "/assets/images/tech-icons/lr-tech-icon.svg",
+    "type": "design"
+  },
+  {
+    "name": "Gatsby",
+    "link": "https://youtube.com/playlist?list=PL4cUxeGkcC9hw1g77I35ZivVLe8k2nvjB",
+    "svg": "/assets/images/tech-icons/gatsby-tech-icon.svg",
+    "type": "learning"
+  },
+  {
+    "name": "React Native",
+    "link": "https://www.udemy.com/course/react-native-the-practical-guide/",
+    "svg": "/assets/images/tech-icons/react-native-tech-icon.svg",
+    "type": "learning"
+  },
+  {
+    "name": "Rails",
+    "link": "https://www.youtube.com/watch?v=fmyvWz5TUWg",
+    "svg": "/assets/images/tech-icons/rails-tech-icon.svg",
+    "type": "learning"
+  }
+]

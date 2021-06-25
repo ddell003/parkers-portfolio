@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Staff Software Engineer",
+    "company": "Maxar",
+    "time_frame": "Started August",
+    "start_date": "2020",
+    "description": "Full stack engineer building out APIs, ETLs, and UI Apps in Java, Python, NodeJs, React, Angular",
+    "type": "dev"
+  },
+  {
+    "title": "MS Computer Information Systems W/ concentration in IT project Management",
+    "company": "Boston University",
+    "time_frame": "2 Years",
+    "start_date": "2019",
+    "description": "Learned core languages and coding methodologies, while building multiple team-based projects.",
+    "type": "learning"
+  },
+  {
+    "title": "Senior Software/ Devops Engineer",
+    "company": "Innovative Refrigeration System",
+    "time_frame": "2 yr",
+    "start_date": "2018",
+    "description": "Led team of developers to develop and maintain multiple Saas products while building out and maintaining infrastructure for current and future growth, Used PHP, LAravel, NodeJS, Mysql, Azure, GCP",
+    "type": "dev"
+  },
+  {
+    "title": "Senior Software/ Team Lead",
+    "company": "Original Mind LT",
+    "time_frame": "2 yr",
+    "start_date": "2018",
+    "description": "Led remote and dispersed global team of developers to develop and maintain a medical Saas product while building out and maintaining infrastructure for current and future growth, Used PHP, Laravel, VueJS, AWS",
+    "type": "design"
+  },
+  {
+    "title": "Web Developer",
+    "company": "Innovative Refrigeration Systems",
+    "time_frame": "3 years",
+    "start_date": "2015",
+    "description": "Developed Saas products utilizing PHP, Laravel and VueJs",
+    "type": "dev"
+  },
+  {
+    "title": "BS | Computer Information Systems",
+    "company": "Bridgewater College",
+    "time_frame": "4 yr",
+    "start_date": "2012",
+    "description": "Received my BS in a double major in computer information systems and business administration",
+    "type": "learning"
+  },
+  {
+    "title": "Web Master",
+    "company": "MountCrawford",
+    "time_frame": "3 years",
+    "start_date": "2015",
+    "description": "Developed and maintain town website and payment portal utilizing VueJS, Angular, PHP, Laravel, Netlify, Heruku and Stripe",
+    "type": "dev"
+  }
+]

@@ -1,128 +1,13 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import './bioBlocks.css';
-import axios from 'axios';
 import reactIcon from './bio-block-icons/react-tech-icon.svg';
 import jsIcon from './bio-block-icons/js-tech-icon.svg';
 import gitIcon from './bio-block-icons/git-tech-icon.svg';
 import phpStormIcon from './bio-block-icons/phpstorm-tech-icon.svg';
-import reactionIcon from './bio-block-icons/reaction-icon.svg';
-import followerIcon from './bio-block-icons/follower-icon.svg';
-import viewIcon from './bio-block-icons/view-icon.svg';
-import codeDocIcon from './bio-block-icons/code-doc-icon.svg';
 import railsIcon from './bio-block-icons/rails-tech-icon.svg';
 
 // This is static top section of the page and gives it semantic value.
 function BioBlocks() {
-
-    // Local State
-    const [articleCount, setArticlesCount] = useState([]);
-    const [latestArticle, setLatestArticle] = useState([]);
-    const [reactions, setReactions] = useState(0);
-
-    useEffect(() => {
-
-        axios.get('https://dev.to/api/articles?username=gedalyakrycer&per_page=1000')
-            .then(res => {
-                setArticlesCount(res.data.length);
-                setLatestArticle(res.data[0]);
-
-                let reactionsArray = []
-
-                res.data.forEach(article => {
-                    reactionsArray.push(article.public_reactions_count);
-                });
-
-                const reactionsTotal = reactionsArray.reduce((accumulator, currentValue) => accumulator + currentValue)
-                setReactions(reactionsTotal);
-            })
-            .catch(error => {
-                console.log(error)
-            })
-
-        return () => {
-
-        }
-
-    }, [])
-
-    // Created by https://stackoverflow.com/a/2686098/12817163
-    const abbrNum = (number, decPlaces) => {
-        // 2 decimal places => 100, 3 => 1000, etc
-        decPlaces = Math.pow(10,decPlaces);
-
-        // Enumerate number abbreviations
-        const abbrev = [ "k", "m", "b", "t" ];
-
-        // Go through the array backwards, so we do the largest first
-        for (let i=abbrev.length-1; i>=0; i--) {
-
-            // Convert array index to "1000", "1000000", etc
-            const size = Math.pow(10,(i+1)*3);
-
-            // If the number is bigger or equal do the abbreviation
-            if(size <= number) {
-                // Here, we multiply by decPlaces, round, and then divide by decPlaces.
-                // This gives us nice rounding to a particular decimal place.
-                number = Math.round(number*decPlaces/size)/decPlaces;
-
-                // Handle special case where we round up to the next abbreviation
-                if((number === 1000) && (i < abbrev.length - 1)) {
-                    number = 1;
-                    i++;
-                }
-
-                // Add the letter for the abbreviation
-                number += abbrev[i];
-
-                // We are done... stop
-                break;
-            }
-        }
-
-        return number;
-    }
-
-
-    const blogStatsData = [
-        {
-            stat: 'reactions',
-            statNumber: abbrNum(reactions, 2) + '+',
-            icon: reactionIcon,
-        },
-        {
-            stat: 'followers',
-            statNumber: '1.3k+',
-            icon: followerIcon,
-        },
-        {
-            stat: 'views',
-            statNumber: '50k+',
-            icon: viewIcon,
-        },
-        {
-            stat: 'articles',
-            statNumber: articleCount,
-            icon: codeDocIcon,
-        },
-    ];
-
-    let statElements = [];
-
-    blogStatsData.forEach(stat => {
-        let singleStat = (
-            <div className="block__blog-stat" key={stat.stat}>
-                <img src={stat.icon} alt="Start checkered flag icon" className="block__icon-left" />
-                <p className="block__stat-text">{stat.statNumber} <span className="block__stat-type">{stat.stat}</span></p>
-            </div>
-        )
-
-        return statElements.push(singleStat)
-    })
-
-    const titleFormater = title => {
-        const titleArray = title === undefined ? 'Loading...' : title.split('');
-        return titleArray.length < 48 ? titleArray : titleArray.slice(0, 48).join('') + '...';
-    }
 
     return (
         <section className="bio-blocks">

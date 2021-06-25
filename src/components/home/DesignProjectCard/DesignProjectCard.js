@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './designProjectCard.css';
-import { FaArrowRight } from 'react-icons/fa';
+//import { FaArrowRight } from 'react-icons/fa';
 //import videoMp4 from '../../../motion-design-web.mp4';
 //import videoWebp from '../../../motion-design-web.webp';
 //import figmaThumbnail from '../../../figma-thumbnail.jpg';

@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import axios from "axios";
 gsap.registerPlugin(ScrollTrigger);
 
 // This is static top section of the page and gives it semantic value.

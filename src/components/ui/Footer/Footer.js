@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedinIn, FaDev, FaReact, FaFigma } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaDev, FaReact } from 'react-icons/fa';
 import './footer.css';
 import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';

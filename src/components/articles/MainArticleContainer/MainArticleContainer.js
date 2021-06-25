@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import { gsap } from "gsap";
 import ArticleThumbnail from '../ArticleThumbnail/ArticleThumbnail';
 import ArticlePagination from '../ArticlePagination/ArticlePagination';
-import axios from 'axios';
 
 
 // This is static top section of the page and gives it semantic value.

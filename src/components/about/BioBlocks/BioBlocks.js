@@ -4,7 +4,6 @@ import axios from 'axios';
 import reactIcon from './bio-block-icons/react-tech-icon.svg';
 import jsIcon from './bio-block-icons/js-tech-icon.svg';
 import gitIcon from './bio-block-icons/git-tech-icon.svg';
-import figmaIcon from './bio-block-icons/figma-tech-icon.svg';
 import phpStormIcon from './bio-block-icons/phpstorm-tech-icon.svg';
 import reactionIcon from './bio-block-icons/reaction-icon.svg';
 import followerIcon from './bio-block-icons/follower-icon.svg';

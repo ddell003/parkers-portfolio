@@ -218,7 +218,7 @@ function TopNavbar() {
                 </li>
                 <li>
                     <a
-                        href="/about"
+                        href={resumeFile}
                         download={true}
                         target="_blank" rel="noopener noreferrer"
                         className="nav__resume"><h6>View Resume</h6></a>

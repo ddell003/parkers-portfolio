@@ -1,6 +1,6 @@
 import React from 'react';
 import './logo.css';
-
+//style
 const imgStyle = {
     width:"250px",
     height:"90px",

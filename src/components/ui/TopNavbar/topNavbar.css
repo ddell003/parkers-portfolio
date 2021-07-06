@@ -28,10 +28,11 @@
 }
 
 
-.nav__logo--desktop {
+/*.nav__logo--desktop {
     margin-right: 8px;
-    height: 40px;
-}
+    height: 100px;
+    width:100px;
+}*/
 
 .nav__logo-container--mobile {
     display: block;

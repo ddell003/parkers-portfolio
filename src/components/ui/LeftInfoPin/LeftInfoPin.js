@@ -30,7 +30,7 @@ function LeftInfoPin() {
     return (
         <div className="leftInfoPin" ref={leftInfoPinContainerRef}>
             <a
-                href="https://www.linkedin.com/in/ddell/"
+                href="https://www.linkedin.com/in/david-dell-1b328999/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="leftInfoPin_link"

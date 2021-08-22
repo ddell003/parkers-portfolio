@@ -33,7 +33,7 @@ function Footer() {
 
 
                 <div className="footer__social-icons-container">
-                    <a href="https://www.linkedin.com/in/ddell/" target="_blank" rel="noopener noreferrer" className="footer__social-icons"><FaLinkedinIn /></a>
+                    <a href="https://www.linkedin.com/in/david-dell-1b328999/" target="_blank" rel="noopener noreferrer" className="footer__social-icons"><FaLinkedinIn /></a>
                     <a href="https://github.com/ddell003" target="_blank" rel="noopener noreferrer" className="footer__social-icons"><FaGithub /></a>
                     <a href="https://dev.to/ddell003" target="_blank" rel="noopener noreferrer" className="footer__social-icons"><FaDev /></a>
 
